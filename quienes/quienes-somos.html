@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>FlashFood - Quiénes somos</title>
+        <link rel=stylesheet href="../css/estilo.css">
+        <link rel="icon" type="image/png" href="../imagenes/logo-ffcolor2.png" />
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
+        </style>
+        <style>
+                @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i');
+                </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="logo"><a href="../index.html"><img src="../imagenes/logo-ffcolor.png" alt=""></a></div>
+                <div class="usuario">
+                        <ul>
+                            <li id="button">REGISTRARSE</li>
+                            <li id="button1">INICIAR SESIÓN</li>
+                        </ul>
+                        <div id="miModal" class="modal">
+                            <div class="modal-contenido">
+                                <span id="cerrar"><img src="../imagenes/close.png" alt=""></span>
+                                <form id="form-usuario" action="" method="post">
+                                    <h4>REGISTRATE</h4>
+                                    <p>¿Ya tenés una cuenta? <a id="link" style="color:dodgerblue">Iniciar sesión</a></p>
+                                    <input type="text" placeholder="Nombre y Apellido" name="name" required>
+                                    <input type="text" placeholder="E-mail" name="email" required>
+                                    <input type="text" placeholder="Número de teléfono" name="telephone" required>
+                                    <input type="password" placeholder="Crear contraseña" name="psw" required>
+                                    <input type="password" placeholder="Repetir contraseña" name="psw-repeat" required>
+                                    <input type="submit" name="signup_submit" value="Registrarme" />
+                                <p>Al registrarte, aceptás los <br> <a href="#" style="color:dodgerblue">Términos y condiciones</a>.</p>
+                                </form>
+                            </div>
+                          </div>
+                        <div id="miModal1" class="modal">
+                            <div class="modal-contenido">
+                                <span id="cerrar1"><img src="../imagenes/close.png" alt=""></span>
+                                <form id="form-usuario" action="" method="post">   
+                                    <h4>INICIÁ SESIÓN</h4>
+                                    <p>¿Todavía no tenés una cuenta? <a id="link1" style="color:dodgerblue">Registrarse</a></p>
+                                    <input type="text" placeholder="Email" name="email" required>
+                                    <input type="password" placeholder="Contraseña" name="psw" required>
+                                    <input type="submit" name="signin_submit" value="Iniciar sesión" />
+                                    <p><a href="#" style="color:dodgerblue">¿Olvidaste tu contraseña?</a></p>
+                                </form>
+                            </div>
+                        </div>
+                </div>
+            </header>
+            <section id="quienes">
+                <div class="info-historia">
+                    <p class="titulo"><i>FlashFood</i>
+                    <p class="subt"><i>La cadena de comidas preferida por el impaciente</i></p>
+                    <p>Somos un grupo de impacientes que se cansó de vivir del delivery para evitar las largas y tediosas esperas en los restaurantes. Que tardan en atender, que tardan en hacerte espacio en una mesa, que tarda la comida, que tarda la bebida, el postre, la cuentaaa. Etc, etc, etc, y ad infinitum. Por eso mismo decidimos crear FlashFood, para todos los impacientes del universo que quieran ir a comer sin tener que envejecer una eternidad en el intento.
+                    Juntamos nuestras fuerzas y mentes y así nació la idea. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                    </p>
+                </div>
+                <div class="biglogo"><img src="../imagenes/logo-ffcolor1.png" alt=""> </div>
+                <div class="info-imagen">                
+                    <img src="../imagenes/amigos.jpg">
+                </div>
+            </section>
+
+
+
+
+
+
+            <footer>
+                <div class="contacto"> 
+                    <ul>
+                        <li><a href="">QUIENES SOMOS</a></li>
+                        <li><a href="">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="redes">
+                    <a href="" class="icon-redes"><img src="../imagenes/redes-instagram.png" alt=""></a>
+   					<a href="" class="icon-redes"><img src="../imagenes/redes-facebook.png" alt=""></a>
+   					<a href="" class="icon-redes"><img src="../imagenes/redes-twitter.png" alt=""></a>
+                </div>
+                <div class="footer-text"><p>@2018 Eliana Marchesi, <i>Flashfood Inc.</i> </p></div>
+            </footer>
+        </div>
+        <script src="../javascript/jsmodal.js"></script>
+    </body>
+</html>
